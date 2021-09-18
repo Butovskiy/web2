@@ -83,16 +83,16 @@ nav a:hover
 	width: 960px;
 }
 
+
 a 
 {
 	text-decoration: none;
-	color: ;
+	color: #f2683a;
 }
 
 a:hover
 {
-	text-decoration: none;
-	color: #f2683a;
+	color: gray;
 }
 
 .tab
