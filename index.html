@@ -16,13 +16,14 @@
 		</header>
 		
 		
-		<div class="content">
-				<nav>
+			<nav>
 					<a href="">Портфолио</a>
 					<a href="">Услуги</a>
 					<a href="">Прайс</a>
 					<a href="">Контакты</a>
-				</nav>
+			</nav>
+		
+		<div class="content">
 
 		<ol>
 			<li><a href="http://example.com">Абсолютная гиперссылка на главную страницу сайта example.com</a></li>
@@ -61,10 +62,27 @@
         	<li><a href="/">Сокращенная ссылка на главную</a></li>
         	<li><a href="/str.html">Сокращенная ссылка на внутреннюю</a></li></br>
 		</div>
+		<div class="tab">
+		<table>
+      		<tr>
+        		<th>1</th>
+        		<th>2</th>
+        		<th>3</th>
+      		</tr>
+     		<tr>
+        		<td colspan="2">Ячейка 11 объединенная с 12</td>
+      			<td>Ячейка 13</td>
+      		</tr>
+      		<tr>
+        		<td>Ячейка 21</td>
+        		<td>Ячейка 22</td>
+        		<td>Ячейка 23</td>
+      		</tr>
+    	</table>
+    </div>
 		<div class="form">
-        	<h2>Форма</h2>
-
         	<form naction="/" method="post">
+        		<h2 align="center">Форма</h2>
         		<label>
         			Имя:&nbsp&nbsp <font color="red">*</font>
         			<input type="txt" name="Name" placeholder="Введите ваше имя" size="20" required />	
@@ -125,7 +143,7 @@
        			<input type="checkbox" name="check" required>
        			<font color="red">*</font>C контрактом ознакомлен(а)</input></br>
 
-       			<input type="submit" value="Отправить" />
+       			<input id="bot" type="submit" value="Отправить" />
         	</form>
         </div>
         </ol>
